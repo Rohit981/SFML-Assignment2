@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Assignment 2\Source.cpp(61,26): warning C4091: '': ignored on left of 'std::runtime_error' when no variable is declared
+C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Assignment 2\Source.cpp(70,26): warning C4091: '': ignored on left of 'std::runtime_error' when no variable is declared
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 79 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Assignment 2.vcxproj -> C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Release\Assignment 2.exe

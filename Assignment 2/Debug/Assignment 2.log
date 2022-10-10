@@ -1,0 +1,32 @@
+﻿  Source.cpp
+C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Assignment 2\Source.cpp(118,108): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Assignment 2\Source.cpp(118,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Assignment 2\Source.cpp(186,108): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Assignment 2\Source.cpp(186,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Assignment 2\Source.cpp(195,108): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Assignment 2\Source.cpp(195,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=int
+          ]
+  Assignment 2.vcxproj -> C:\Program Files (x86)\SFML-2.5.1\Assignment 2\Debug\Assignment 2.exe
