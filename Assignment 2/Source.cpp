@@ -128,9 +128,9 @@ void handleInput(RenderWindow& window, Event e)
         sf::Texture texture;
         texture.create(window.getSize().x, window.getSize().y);
         texture.update(window);
-        if (texture.copyToImage().saveToFile("Homework 1 Screenshot.png"))
+        if (texture.copyToImage().saveToFile("Homework 2 Screenshot.png"))
         {
-            std::cout << "Screenshot saved to Homework 1 Screenshot.png" << std::endl;
+            std::cout << "Screenshot saved to Homework 2 Screenshot.png" << std::endl;
         }
     }
 }
