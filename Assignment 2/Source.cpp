@@ -17,13 +17,17 @@ using namespace sf;
 //Global Variables
 Texture tileTexture[20];
 const int Row = 10;
-const int column = 10;
-int SpritePosition[Row][column];
+const int WORLD_SIZE = 10;
+int coordinateWorld[WORLD_SIZE][WORLD_SIZE];
+Sprite SpritePosition[WORLD_SIZE][WORLD_SIZE];
+// loading info
+int browsingIndex = 0;
 Sprite tileSprite[200];
 int TextureValue = 0;
 int CurrentTextureValue = 0;
 int CurrentSpriteValue = 0;
 bool isLeftMouseClicked = false;
+
 
 
 //Starter Function
@@ -115,12 +119,15 @@ void handleInput(RenderWindow& window, Event e)
     }
     else if (Mouse::isButtonPressed(Mouse::Left))
     {
-        tileSprite[CurrentSpriteValue].setPosition(Mouse::getPosition(window).x, Mouse::getPosition(window).y);
+        tileSprite[CurrentSpriteValue].setPosition(Mouse::getPosition(window).x - (int)((Mouse::getPosition(window).x % 70)), Mouse::getPosition(window).y - (int)(Mouse::getPosition(window).y % 70));
         SpritePosition[Mouse::getPosition(window).x][Mouse::getPosition(window).y];
+
 
         isLeftMouseClicked = true;
 
         CurrentSpriteValue += 1;
+
+        //cout << "Tile X Position:" << Mouse::getPosition(window).x - ((Mouse::getPosition(window).x % 70)) << endl;
 
     }
     else if (e.key.code == sf::Keyboard::Space) 
