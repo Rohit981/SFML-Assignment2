@@ -1,22 +1,22 @@
 ﻿  Source.cpp
-C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(122,156): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(122,81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(195,108): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(126,156): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(126,81): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(218,108): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=int
           ]
-C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(195,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(218,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=int
           ]
-C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(204,108): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(227,108): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=int
           ]
-C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(204,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+C:\Program Files (x86)\SFML-2.5.1\SFML-Assignment2\Assignment 2\Source.cpp(227,78): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
           with
           [
               T=int
